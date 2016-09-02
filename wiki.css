@@ -1,0 +1,57 @@
+body {
+  background:black;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, rgba(222,164,125,.9), rgba(32,74,125,.9));
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, rgba(222,164,125,.9), rgba(92,74,125,.9));
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.top {
+  padding: 60px;
+  width: 89%;
+  margin: auto;
+  margin-top: 70px;
+  border: solid rgba(152,54,55,.9) 1px;
+  padding: 10px;
+  background: #EFEFBB;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, rgba(92,74,125,.9), rgba(222,184,125,.9));
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, rgba(92,74,125,.9), rgba(222,184,125,.9));
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.col-md-8 {
+  padding: 10px;
+}
+
+.inputtext {
+  margin-right: 5px;
+}
+
+.searchmatch {
+  color: crimson;
+}
+
+.item-container {
+  border: 1px solid rgba(12,194,165,.9);
+  border-radius: 3px;
+  margin-top: 3px;
+  padding: 5px;
+}
+
+.item-content {
+  font-size: 1.2em;
+  padding: 5px
+}
+
+hr {
+  border-color: inherit;
+  width: 50%;
+}
+
+#inputs {
+  margin-top: 5px;
+  margin-bottom: 10px;
+}

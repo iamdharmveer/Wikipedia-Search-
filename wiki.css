@@ -55,3 +55,77 @@ hr {
   margin-top: 5px;
   margin-bottom: 10px;
 }
+
+
+p{
+	font-size:12px;
+	text-align:justify;
+	margin-top:10px
+	}
+
+	a,p{
+	font-weight:200
+	}
+	
+	a{
+	font-size:18px
+	}
+
+
+.no-padding:hover span.text-content{
+opacity:1
+}
+span.text-content span{
+display:table-cell;
+text-align:center;
+vertical-align:middle
+}
+.dv1
+{
+margin-top:0;
+margin-bottom:0
+}
+.dv-sub{
+margin-bottom:2px
+}
+.center-icon{
+text-align:center
+}
+.text-right{
+padding:6px
+}
+.fa{
+padding-left:10px
+}
+.section{
+padding-top:50px
+}
+.section-container{
+padding-top:50px;
+padding-bottom:50px;
+border-bottom:1px solid #dbdbdb
+}
+.section.row{
+margin-right:-15px;
+margin-left:-15px
+}
+.footer{
+border-top:1px solid #dbdbdb
+;background:black;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, rgba(222,184,125,.9), rgba(92,74,125,.9));
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left,rgba(222,184,125,.9), rgba(92,74,125,.9) );
+padding:20px 0 25px;
+}
+.footer ul{
+list-style-type:none;
+padding-left:0}
+.footer li{
+color:#000;
+font-weight:600}
+@media (max-width:500px){
+img.col-md-6{
+padding:50px;
+width:100%}
+}
